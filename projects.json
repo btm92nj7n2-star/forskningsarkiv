@@ -9,7 +9,17 @@
       "Q",
       "Kosmologi"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Kan overgangen fra en opprinnelig ikke-materiell Q-tilstand til materie utledes uten å forutsette materie på forhånd?",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "En nødvendig og tilstrekkelig materialiseringslov er ikke dokumentert som bevist.",
+        "Skill modellbasert energikonsentrasjon fra fysisk identifisert materie."
+      ],
+      "records": []
+    }
   },
   {
     "id": "tre",
@@ -20,7 +30,16 @@
     "tags": [
       "TRE"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Relasjoner og naturlig emergens",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "tre-varianter",
@@ -31,7 +50,16 @@
     "tags": [
       "TRE"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Alternative TRE-grener",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "t0",
@@ -42,7 +70,16 @@
     "tags": [
       "Gravitasjon"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Gravitasjon og geometri",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "sam",
@@ -53,7 +90,16 @@
     "tags": [
       "Geometri"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Samhandling, aktivitet og mønster",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "c2",
@@ -64,7 +110,16 @@
     "tags": [
       "Bevissthet"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Bevissthet og observasjon",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "tanke",
@@ -75,7 +130,17 @@
     "tags": [
       "Matematikk"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Hvorfor realiseres én bestemt ny tanke uten at innholdet er spesifisert på forhånd?",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Stokastiske utfallslover kan representeres med latente deterministiske variabler.",
+        "En etterprøvbar lov for faktisk utfallsrealisering mangler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "ftl",
@@ -86,7 +151,17 @@
     "tags": [
       "Ny fysikk"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Informasjon raskere enn lys",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Ingen uavhengig dokumentert kontrollerbar informasjonsoverføring over c er vedlagt.",
+        "En testbar fysisk modell må skille signal fra korrelasjon."
+      ],
+      "records": []
+    }
   },
   {
     "id": "higgs",
@@ -97,7 +172,16 @@
     "tags": [
       "Felt"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Felt og grunnstruktur",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "kosmos",
@@ -108,7 +192,16 @@
     "tags": [
       "Kosmologi"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Alternative opprinnelsesmodeller",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "warp",
@@ -119,7 +212,16 @@
     "tags": [
       "Ny fysikk"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "Felt, ringer og stabilitet",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   },
   {
     "id": "milk-hill",
@@ -130,6 +232,15 @@
     "tags": [
       "Geometri"
     ],
-    "documents": []
+    "documents": [],
+    "research": {
+      "question": "409 sirkler og DNA-hypotesen",
+      "evidenceLevel": "Prosjektoversikt – ingen vedlagte primærkilder",
+      "lastVerified": "Ikke verifisert",
+      "openIssues": [
+        "Publiser originale testprotokoller med dato, metode, resultater og eventuelle moteksempler."
+      ],
+      "records": []
+    }
   }
 ]

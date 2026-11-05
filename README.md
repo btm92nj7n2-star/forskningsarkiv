@@ -1,38 +1,35 @@
-# Åpent Forskningsarkiv – nettside versjon 1
+# Åpent Forskningsarkiv – nettside versjon 2
 
-Dette er en skreddersydd statisk nettside på norsk. Den inneholder 12 prosjektoversikter, søk, kategorifilter, prosjektvinduer og en forskningsmetodeside.
+Dette er en statisk nettside på norsk med 12 adskilte forskningsprosjekter. Versjon 2 beholder utseende, søk, filter og prosjektvinduer fra versjon 1, og legger til felt for forskningsspørsmål, åpne spørsmål, dokumenter og testprotokoller.
 
-## Viktig om innhold
-Prosjektbeskrivelsene er basert på samtalens opplysninger, **ikke** uavhengig verifiserte vitenskapelige resultater. Ingen testlogger, datoer, publikasjoner eller PDF-er er oppdiktet. Dokumentarkivet er tomt til dokumenter blir gjennomgått og lagt inn.
+## Viktig om innholdet
+Prosjektoversiktene er basert på opplysninger i samtalen, ikke på uavhengig bekreftede vitenskapelige resultater. **Ingen testprotokoller, PDF-er eller matematiske bevis er fabrikkert eller automatisk publisert.** `records` og `documents` er tomme til dokumentasjon faktisk legges inn.
 
-## Test på egen datamaskin
-Åpne terminal i mappen og kjør:
-`python -m http.server 8000`
-Åpne deretter `http://localhost:8000` i nettleseren.
+## Legg til et dokument
+1. Legg en kontrollert PDF i `documents/`, f.eks. `documents/q-notat.pdf`.
+2. Åpne `projects.json` og finn riktig prosjekt etter `id`.
+3. Legg inn i `documents`-listen: `{"title":"Q – notat","path":"documents/q-notat.pdf","date":"2026-11-05","type":"PDF"}`.
+4. Last opp både PDF-en og oppdatert `projects.json` til samme GitHub-repositorium.
 
-Merk: `index.html` kan ikke bare dobbeltklikkes for full funksjon fordi nettleseren normalt blokkerer lokal innlesing av `projects.json`.
+## Registrer en faktisk utført test
+I `research.records` for riktig prosjekt, legg inn for eksempel:
 
-## Gratis publisering med GitHub Pages
-1. Lag en GitHub-konto og et nytt offentlig repository, for eksempel `forskningsarkiv`.
-2. Last opp **filene inni denne mappen** til hovednivået i repositoryet.
-3. Åpne Settings → Pages → Build and deployment, velg Deploy from a branch, `main`, `/ (root)`, og lagre.
-4. Vent til GitHub viser publiseringsadressen. Nettsiden kan senere knyttes til et eget domene.
+```json
+{
+  "title": "Testnummer og kort tittel",
+  "date": "ÅÅÅÅ-MM-DD",
+  "summary": "Metode, reelt resultat og begrensninger",
+  "classification": "Analytisk modellresultat / numerisk test / fysisk måling / moteksempel",
+  "source": "Kilde, dokumentnavn eller kontrollbar referanse"
+}
+```
 
-## Legg til dokumenter
-1. Lag en mappe `docs` og legg PDF-er der.
-2. Åpne `projects.json` og finn ønsket prosjekt.
-3. Endre `documents: []` til eksempelvis:
-   `"documents": [{"title": "Forskningsnotat – gjennomgått versjon", "path": "docs/notat.pdf"}]`
-4. Last opp filene på nytt.
+Ikke legg inn tester som bare er omtalt, men ikke dokumentert med kontrollerbart grunnlag. Behold positive, negative og uavklarte funn. Ikke merk 100 % uten fullstendig bevis for den presise matematiske påstanden eller tilstrekkelig uavhengig fysisk bekreftelse.
 
-## Tilpasninger
-- Nettsidens navn: `index.html` (søk etter «ÅPENT FORSKNINGSARKIV»)
-- Tekster og prosjekter: `projects.json`
-- Farger og design: `style.css`
-- Interaktivitet: `app.js`
+## Publiser på GitHub Pages
+Repository: `forskningsarkiv`. Under Settings → Pages: **Deploy from a branch**, **main**, **/(root)**. Trykk Save bare når innstillingen er endret. Nettsiden blir normalt tilgjengelig på `https://btm92nj7n2-star.github.io/forskningsarkiv/`.
 
-Nettsiden krever ingen database og lagrer ingen besøkendes data. Google Fonts lastes eksternt; fjern `@import` i `style.css` om du vil unngå ekstern fontinnlasting.
+**Viktig:** Last opp *filene inne i ZIP-arkivet* til roten av GitHub-repositoriet, ikke en ekstra mappe med hele prosjektet. Eksisterende filer skal erstattes med nye versjoner.
 
-## Neste versjon
-Egen side per teori, publiseringshistorikk, norsk/engelsk, DOI/kilder, matematiske formler, PDF-visning og versjonerte testprotokoller.
-Oppdatert 5. november 2026
+## Teknikk
+Vanlig HTML/CSS/JavaScript og `projects.json`. Ingen database, server eller API-nøkkel. `fetch` krever publisert nettsted eller lokal HTTP-server. Dokumentlenker er begrenset til relative lokale filbaner.
