@@ -1,0 +1,135 @@
+[
+  {
+    "id": "q",
+    "title": "Q – materialisering",
+    "subtitle": "Grunnlag og materiens fremkomst",
+    "description": "Utforsker hypotesen om at materie, energi og fysiske lover kan fremkomme fra en opprinnelig ikke-materiell Q-tilstand.",
+    "status": "Hypotese under utvikling",
+    "tags": [
+      "Q",
+      "Kosmologi"
+    ],
+    "documents": []
+  },
+  {
+    "id": "tre",
+    "title": "TRE – Den naturlige veien",
+    "subtitle": "Relasjoner og naturlig emergens",
+    "description": "Undersøker om rom, tid, felt og samspill kan utledes uten å pålegge etablerte feltlover som utgangspunkt.",
+    "status": "Matematiske modeller",
+    "tags": [
+      "TRE"
+    ],
+    "documents": []
+  },
+  {
+    "id": "tre-varianter",
+    "title": "TRE-H og TRE-HV",
+    "subtitle": "Alternative TRE-grener",
+    "description": "Egne kontroll- og utviklingsgrener som holdes adskilt fra TRE – Den naturlige veien.",
+    "status": "Utforskende",
+    "tags": [
+      "TRE"
+    ],
+    "documents": []
+  },
+  {
+    "id": "t0",
+    "title": "T0 og TO",
+    "subtitle": "Gravitasjon og geometri",
+    "description": "Forsøksmodeller for romtid, gravitasjon, ormehull, bobler og stabilitet.",
+    "status": "Utforskende",
+    "tags": [
+      "Gravitasjon"
+    ],
+    "documents": []
+  },
+  {
+    "id": "sam",
+    "title": "SAM",
+    "subtitle": "Samhandling, aktivitet og mønster",
+    "description": "Geometriske og dynamiske forsøk med trekantstrukturer, bølger, tetraedre og bipyramider.",
+    "status": "Matematiske modeller",
+    "tags": [
+      "Geometri"
+    ],
+    "documents": []
+  },
+  {
+    "id": "c2",
+    "title": "C2 og C3",
+    "subtitle": "Bevissthet og observasjon",
+    "description": "Undersøker matematiske og fysiske beskrivelser av bevissthet, orden, kaos og observatørrollen.",
+    "status": "Hypotese under utvikling",
+    "tags": [
+      "Bevissthet"
+    ],
+    "documents": []
+  },
+  {
+    "id": "tanke",
+    "title": "Tankens fremkomst",
+    "subtitle": "Nytt innhold uten forhåndsbestemmelse",
+    "description": "Et isolert matematisk forskningsprogram om hvordan én ny tanke eller hendelse kan realiseres uten forhåndsbestemt innhold.",
+    "status": "Åpent hovedproblem",
+    "tags": [
+      "Matematikk"
+    ],
+    "documents": []
+  },
+  {
+    "id": "ftl",
+    "title": "Ny fysikk – FTL",
+    "subtitle": "Informasjon raskere enn lys",
+    "description": "Tester matematisk konsistens og mulige etterprøvbare konsekvenser av kontrollerbar informasjonsoverføring raskere enn c.",
+    "status": "Ikke fysisk bekreftet",
+    "tags": [
+      "Ny fysikk"
+    ],
+    "documents": []
+  },
+  {
+    "id": "higgs",
+    "title": "Kvantefelt og Higgs",
+    "subtitle": "Felt og grunnstruktur",
+    "description": "Utforsker komponenter, grunnstrukturer og alternative beskrivelser av kvantefelt.",
+    "status": "Utforskende",
+    "tags": [
+      "Felt"
+    ],
+    "documents": []
+  },
+  {
+    "id": "kosmos",
+    "title": "Kosmologi uten Big Bang",
+    "subtitle": "Alternative opprinnelsesmodeller",
+    "description": "Tankeeksperimenter om minimale reaksjoner og alternative forklaringer på kosmologiske observasjoner.",
+    "status": "Ikke fysisk bekreftet",
+    "tags": [
+      "Kosmologi"
+    ],
+    "documents": []
+  },
+  {
+    "id": "warp",
+    "title": "Warp-boble og ringgeometri",
+    "subtitle": "Felt, ringer og stabilitet",
+    "description": "Konseptuell undersøkelse av seks ringers geometri, energifordeling og bobledynamikk.",
+    "status": "Konseptmodell",
+    "tags": [
+      "Ny fysikk"
+    ],
+    "documents": []
+  },
+  {
+    "id": "milk-hill",
+    "title": "Milk Hill – mønsteranalyse",
+    "subtitle": "409 sirkler og DNA-hypotesen",
+    "description": "Geometriske og kodeteoretiske undersøkelser av et seksarmet mønster.",
+    "status": "Mønstertolkning, ikke bevist DNA",
+    "tags": [
+      "Geometri"
+    ],
+    "documents": []
+  }
+]
