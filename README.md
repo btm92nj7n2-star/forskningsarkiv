@@ -35,3 +35,4 @@ Nettsiden krever ingen database og lagrer ingen besøkendes data. Google Fonts l
 
 ## Neste versjon
 Egen side per teori, publiseringshistorikk, norsk/engelsk, DOI/kilder, matematiske formler, PDF-visning og versjonerte testprotokoller.
+Oppdatert 5. november 2026
